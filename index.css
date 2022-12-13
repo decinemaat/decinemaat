@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.videogrid{
+    aspect-ratio: 16 / 9;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -186528,3 +186528,13 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+
+.videogrid{
+  aspect-ratio: 16 / 9;
+}
+
+
+.smoothscroll {
+scroll-behavior: smooth;
+}

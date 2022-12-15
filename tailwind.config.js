@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './components/**/*.{html,js}',
+    './pages/**/*.{html,js}',
+    './index.html',
+    './index.css',
+    
+  ],
   theme: {
 
     // fontSize: {
@@ -10,7 +16,7 @@ module.exports = {
       colors: {
         'zwart': '#1D1D1F',
         'white' : '#FFFFFF',
-        'achtergrond' : '#cccccc',
+        'achtergrond' : '#f0f0f0',
         'blauw1': '#4187AB',
         'blauw2': '#214456',
       },
